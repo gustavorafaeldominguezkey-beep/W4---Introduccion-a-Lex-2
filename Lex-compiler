@@ -1,0 +1,21 @@
+%{
+ /* level basic  */ 
+
+}
+
+
+[\n\t] +      {/* ignorar espacios en blanco  */ }
+go
+have          { printf("%s: this is a verb\n", yytext)  */ }  
+[a-zA-Z]+     { printf("%s: this is not a verb\n", yytext);}
+
+%%
+
+%%
+
+int main (){
+    yylex();
+    }
+
+
+    
